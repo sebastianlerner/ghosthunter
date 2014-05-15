@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ghost Hunt</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="action_settings">Settings</string>
+    <string name="point_latitude">Latitude</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_prox_alert">ProxAlertActivity</string>
+    <string name="title_activity_proximity_intent_receiver">ProximityIntentReceiver</string>
+    <string name="find_coordinates">Find Coordinates</string>
+    <string name="find_distance">Find Distance</string>
+    <string name="map_mode">Map Mode</string>
+    <string name="title_activity_fight_screen">FightScreen</string>
+    <string name="title_activity_highscore">Highscore</string>
+    <string name="Score">Score: </string>
+    <string name="title_activity_highscorelist">Highscorelist</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_heart">Heart</string>
+    <string name="title_activity_splash_page">SplashPage</string>
+    <string name="title_activity_proximity_intent">PrximityIntent</string>
+    <string name="title_activity_instructions">Instructions</string>
+    <string name="title_activity_game_over">GameOver</string>
+
+</resources>

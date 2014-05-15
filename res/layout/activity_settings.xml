@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#120612"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:src="@drawable/settings" />
+
+    <RadioGroup
+        android1:id="@+id/radioGroup1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_below="@+id/imageView1"
+        android1:layout_centerHorizontal="true"
+        android1:layout_marginTop="100dp" >
+
+        <RadioButton
+            android1:id="@+id/radioE"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:layout_below="@+id/imageView1"
+            android1:checked="true"
+            android1:onClick="onClicked"
+            android1:text="Easy"
+            android1:textColor="#C0C0C0"
+            android1:textSize="50sp" />
+
+        <RadioButton
+            android1:id="@+id/radioM"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:layout_alignLeft="@+id/radioE"
+            android1:layout_below="@+id/radioE"
+            android1:layout_centerHorizontal="true"
+            android1:onClick="onClicked"
+            android1:text="Medium"
+            android1:textColor="#C0C0C0"
+            android1:textSize="50sp" />
+
+        <RadioButton
+            android1:id="@+id/radioH"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:layout_alignLeft="@+id/radioM"
+            android1:layout_below="@+id/radioM"
+            android1:onClick="onClicked"
+            android1:text="Hard"
+            android1:textColor="#C0C0C0"
+            android1:textSize="50sp" />
+    </RadioGroup>
+
+    <ImageButton
+        android1:id="@+id/btnSave"
+        android1:layout_width="300dp"
+        android1:layout_height="wrap_content"
+        android1:layout_below="@+id/radioGroup1"
+        android1:layout_centerHorizontal="true"
+        android1:layout_marginTop="100dp"
+        android1:background="@null"
+        android1:src="@drawable/save" />
+
+</RelativeLayout>

@@ -1,0 +1,3 @@
+Homogenous Nucleation assumptions:
+	•	spherical geometry for surface energy
+	•	No change in volume for solid to solid

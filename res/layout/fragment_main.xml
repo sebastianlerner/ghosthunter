@@ -1,0 +1,67 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    android:orientation="horizontal">
+<fragment 
+    android:id="@+id/map" 
+    android:name="com.google.android.gms.maps.MapFragment" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    android:layout_alignParentLeft="true" 
+    android:layout_alignParentTop="true"/>
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:text="@string/Score"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="#000000"
+    />
+
+<ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/textView1"
+    android:src="@drawable/heart" />
+
+<ImageView
+    android:id="@+id/imageView2"
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+    android:layout_below="@+id/textView1"
+    android:layout_toRightOf="@+id/imageView1"
+    android:src="@drawable/heart" />
+
+<ImageView
+    android:id="@+id/imageView3"
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+    android:layout_below="@+id/textView1"
+    android:layout_toRightOf="@+id/imageView2"
+    android:src="@drawable/heart" />
+
+<ImageView
+    android:id="@+id/imageView4"
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+    android:layout_alignTop="@+id/imageView3"
+    android:layout_toRightOf="@+id/imageView3"
+    android:src="@drawable/heart" />
+
+<ImageView
+    android:id="@+id/imageView5"
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+    android:layout_alignTop="@+id/imageView4"
+    android:layout_toRightOf="@+id/imageView4"
+    android:src="@drawable/heart" />
+
+
+</RelativeLayout>
